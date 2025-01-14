@@ -28,7 +28,7 @@ export const About = () => {
                   into data, I was also interested in <strong>Backend Development</strong> because
                   I have a stronger understanding of the logical side and enjoy working
                   on it. I'm still figuring out which suits me best, but either way, I’m
-                  happy to try new things.
+                  happy to try new challenges and opportunities.
                 </p>
                 <button data-aos="zoom-in" className="view-cv-btn"><a href="https://drive.google.com/file/d/1Of3Vk-OvgZ1k3CoF9E6WGhRG57FSzyXU/view?usp=sharing" target="_blank" rel="noopener noreferrer">View CV</a></button>
                 <div data-aos="zoom-in" className="social-icons">

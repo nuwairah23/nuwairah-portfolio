@@ -3,6 +3,8 @@ import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/projImg1.jpeg";
 import projImg2 from "../assets/img/projImg2.jpeg";
 import projImg3 from "../assets/img/projImg3.png";
+import projImg4 from "../assets/img/projImg4.png";
+import projImg5 from "../assets/img/projImg5.png";
 import React, { useRef, useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import AOS from "aos";
@@ -12,16 +14,23 @@ export const Projects = () => {
   const [activeTab, setActiveTab] = useState(0); 
   const devProjects = [
     {
+      title: "Web Portfolio",
+      description:
+        "An ongoing React project that showcases my personal and academic projects.",
+      imgUrl: projImg5,
+      urlLink: "https://github.com/nuwairah23/nuwairah-portfolio"
+    },
+    {
       title: "DocUiTM",
       description:
-        "A group project where we develop a webapp to improve UiTM's clinic environment",
+        "A group project where we develop a webapp to improve UiTM's clinic environment.",
       imgUrl: projImg1,
       urlLink: "https://github.com/nuwairah23/DocUiTM"
     },
     {
       title: "SkyHigh",
       description:
-        "A group project where we develop a webapp that mimics a flight booking system",
+        "A group project where we develop a webapp that mimics a flight booking system.",
       imgUrl: projImg2,
       urlLink: "https://github.com/nuwairah23/SkyHigh"
     }
@@ -32,9 +41,17 @@ export const Projects = () => {
       title:
         "Classification and Visualization of E-Commerce Product Reviews Comparison Using Support Vector Machine",
       description:
-        "A final year project that implements the use of data analysis and Machine Learning in textual analysis",
+        "A final year project that implements the use of data analysis and Machine Learning with Python in textual analysis.",
       imgUrl: projImg3,
       urlLink: "https://github.com/nuwairah23/Shopee-Rating-Reviews-Classification"
+    },
+    {
+      title:
+        "Case Study: HR Analytics Report",
+      description:
+        "This Power BI project report presents a case study for Atlas Labs, a fictitious software company. The goal is to provide actionable insights by monitoring key HR metrics and understanding factors influencing employee attrition.",
+      imgUrl: projImg4,
+      urlLink: "https://github.com/nuwairah23/Case-Study-HR-Analytics-Report"
     },
   ];
 
